@@ -632,7 +632,7 @@ impl super::Context {
             let memory_types =
                 &mem_properties.memory_types[..mem_properties.memory_type_count as usize];
             let limits = &capabilities.properties.limits;
-            let config = gpu_alloc::Config::i_am_prototyping(); //TODO?
+            let config = gpu_alloc::Config::i_am_potato(); //TODO?
 
             let properties = gpu_alloc::DeviceProperties {
                 max_memory_allocation_count: limits.max_memory_allocation_count,
